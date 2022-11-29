@@ -1,3 +1,14 @@
+/**
+ * @param {props} children
+ * @param {string} id
+ * @param {string} name 
+ * @param {string} room 
+ * @param {string} title 
+ * @param {function} handleDelete
+ * 
+ * @returns Collapsible* component which contains current tickets and displays them when toggled
+ */
+
 import React from 'react';
 import { useState, useRef } from 'react';
 import "./Collapsible.css"

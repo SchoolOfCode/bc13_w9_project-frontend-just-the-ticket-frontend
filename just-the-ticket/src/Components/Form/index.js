@@ -1,3 +1,13 @@
+/**
+ * 
+ * @param {setState} setTicket
+ * @param {setState} userTicket
+ * @param {function} handleSubmit
+ * 
+ * @returns Form which renders Input components and takes user input 
+ * 
+ */
+
 import Input from "../Input";
 
 const Form = ({ setTicket, userTicket, handleSubmit }) => {
