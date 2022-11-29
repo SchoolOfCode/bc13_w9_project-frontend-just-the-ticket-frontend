@@ -1,3 +1,8 @@
+/**
+ * @navbar Generates the navbar with the logo, and the menu bar(hamburger)
+ * the hamburger is not functional at the moment.
+ */
+
 import React from 'react';
 import logo from "../../just-the-ticket-nav-bar-03.png";
 import hamburger from "../../just-the-ticket-nav-bar-04.png";
