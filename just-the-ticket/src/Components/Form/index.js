@@ -1,11 +1,12 @@
 /**
+ * Form is our form containing Inputs and buttons (yet to be separated into components).
+ * This is the main component of the page.
  * 
  * @param {setState} setTicket
  * @param {setState} userTicket
  * @param {function} handleSubmit
  * 
  * @returns Form which renders Input components and takes user input 
- * 
  */
 
 import Input from "../Input";

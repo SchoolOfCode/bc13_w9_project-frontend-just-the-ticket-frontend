@@ -1,4 +1,5 @@
 /**
+ * Input generates a component that takes user input and upon submit that information is submitted to the database in the form of a POST request. At this stage all inputs are rendered in our form.
  * 
  * @param {string} type 
  * @param {string} className 

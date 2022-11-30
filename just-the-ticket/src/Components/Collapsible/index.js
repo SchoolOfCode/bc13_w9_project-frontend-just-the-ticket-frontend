@@ -1,4 +1,6 @@
 /**
+ * Collapsible creates a expandable container component which houses the existing tickets.
+ *
  * @param {props} children
  * @param {string} id
  * @param {string} name 

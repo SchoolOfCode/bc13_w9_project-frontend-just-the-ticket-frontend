@@ -1,9 +1,14 @@
+/**
+ * App is the main page. It contains our form, which in turn contains inputs and a submit button.
+ * It also contains our collapsible components which contain the existing tickets on the database.
+ */
+
 import './App.css';
-import { v4 as uuidv4 } from 'uuid';
+// import { v4 as uuidv4 } from 'uuid';
 import { useEffect, useState } from 'react';
-import Form from '../Components/Form'
-import Collapsible from './Collapsible';
-import NavBar from './NavBar';
+import Form from '../Form/index'
+import Collapsible from '../Collapsible/index';
+import NavBar from '../NavBar/index';
 import { confirmAlert } from 'react-confirm-alert';
 
 const App = () => {

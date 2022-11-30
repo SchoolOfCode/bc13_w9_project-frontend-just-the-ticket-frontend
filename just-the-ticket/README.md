@@ -1,70 +1,71 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Just The Ticket - Front End
 
-## Available Scripts
+Just the Ticket is an app which aims to assist in the process of formulating and 
+asking those questions, by encouraging the user to break down their questions to help themselves 
+understand the problem and provide context to anyone willing to help with those problems.
 
-In the project directory, you can run:
 
-### `npm start`
+## Environment Variables
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To run this project, you will need to add the following environment variables to your .env file
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+`PORT` -> localhost port number
 
-### `npm test`
+`POSTGRES_CONNECTION_URL` -> Database URL
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation
 
-### `npm run build`
+Install required packages with npm
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  npm i
+  cd just-the-ticket
+```
+    
+## Running Tests
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To run tests, run the following command
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  npm run test
+```
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Client:** React, CSS
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Server:** Node, Express
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Database:** PostgreSQL (elephantSQL)
 
-## Learn More
+## Colour Reference
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+| Colour                        | Hex                                                              |
+| -----------------             | -----------------------------------------------------------------|
+| --primary-background-colour   | ![#181E2E](https://via.placeholder.com/10/181E2E?text=+) #181E2E |
+| --secondary-background-colour | ![#212a3a](https://via.placeholder.com/10/212a3a?text=+) #212a3a |
+| --dark-background-colour      | ![#111420](https://via.placeholder.com/10/111420?text=+) #111420 |
+| --primary-text-colour         | ![#cad2d9](https://via.placeholder.com/10/cad2d9?text=+) #cad2d9 |
+| --secondary-text-color        | ![#808a93](https://via.placeholder.com/10/808a93text=+)  #808a93 |
+| --third-text-color            | ![#c9d1d9](https://via.placeholder.com/10/c9d1d9?text=+) #c9d1d9 |
+| --primary-button-color        | ![#218636](https://via.placeholder.com/10/218636?text=+) #218636 |
+| --primary-button-hover        | ![#2aaf44](https://via.placeholder.com/10/2aaf44?text=+) #2aaf44 |
+| --delete-button               | ![#c72929](https://via.placeholder.com/10/c72929?text=+) #c72929 |
+| --delete-button-hover         | ![#cd4949](https://via.placeholder.com/10/cd4949?text=+) #cd4949 |
+| --button-font-color           | ![#FFFFFF](https://via.placeholder.com/10/FFFFFF?text=+) #FFFFFF |
+| --primary-border-color        | ![#343a46](https://via.placeholder.com/10/343a46?text=+) #343a46 |
+| --primary-border-hover        | ![#596377](https://via.placeholder.com/10/596377?text=+) #596377 |
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+![Logo](https://i.ibb.co/1Zgch4x/just-the-ticket-nav-bar-03.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Authors
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [@shane-downes](https://www.github.com/shane-downes)
+- [@cowtipping](https://www.github.com/cowtipping)
+- [@callum-cheshire](https://www.github.com/callum-cheshire)
+- [@AshrafAKRahman](https://github.com/AshrafAKRahman)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
