@@ -166,7 +166,7 @@ const App = () => {
                 label="Problem Summary:"
                 detailsContainerClassName="ticket-details-container"
                 text={ticket.problem_summary}
-                pClassName= "text"
+                pClassName= "ticket-p"
               /> 
 
                 <TicketDetails 
@@ -174,14 +174,14 @@ const App = () => {
                 label="Steps Taken:"
                 detailsContainerClassName="ticket-details-container"
                 text={ticket.problem_summary}
-                pClassName= "text"
+                pClassName= "ticket-p"
               /> 
                 <TicketDetails 
                 containerClassName = "monospace-container"
                 label="Code:"
                 detailsContainerClassName="code-details-container"
                 text={ticket.code}
-                pClassName= "text"
+                pClassName= "ticket-p"
               /> 
                 
                 <div className="monospace-container">
